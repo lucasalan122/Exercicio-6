@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TodoAPP</string>
+    <string name="log_in">Log in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="entrar">Entrar</string>
+    <string name="criar_conta">Criar Conta</string>
+    <string name="nome_completo">Nome completo</string>
+    <string name="senha">Senha</string>
+    <string name="confirmar_senha">Confirmar senha</string>
+    <string name="criar">Criar</string>
+    <string name="voce_precisa_digitar_o_email">Você precisa digitar o email</string>
+    <string name="voce_precisa_digitar_a_senha">Você precisa digitar a senha</string>
+    <string name="criar_uma_conta">Criar uma conta</string>
+    <string name="voce_precisa_digitar_o_seu_nome">Você precisa digitar o seu nome</string>
+    <string name="voce_precisa_confirmar_a_senha">Voce precisa confirmar a senha</string>
+    <string name="as_senhas_nao_sao_iguais">As senhas não são iguais</string>
+    <string name="voltar">Voltar</string>
+    <string name="sair">Sair</string>
+    <string name="ja_existe_esse_email_cadastrado">Já existe esse email cadastrado</string>
+    <string name="lista_de_tarefas">Lista de Tarefas</string>
+    <string name="informacoes_incoretas">Informações incoretas</string>
+    <string name="nove_tarefa">Nova Tarefa</string>
+    <string name="titulo">Titulo</string>
+    <string name="selecione_a_data">Selecione a data</string>
+    <string name="alta">Alta</string>
+    <string name="media">Media</string>
+    <string name="baixa">Baixa</string>
+    <string name="prioridade">Prioridade</string>
+    <string name="salvar">Salvar</string>
+    <string name="voce_precisa_informar_o_titulo">Voce precisa infomar o titulo</string>
+    <string name="voce_precisa_informar_a_data">Voce precisa informar a data</string>
+    <string name="ocorreu_algum_erro">Ocorreu algum erro!</string>
+    <string name="template_bem_vindo_user">Bem vindo %s</string>
+    <string name="data_invalida">Data invalida</string>
+</resources>

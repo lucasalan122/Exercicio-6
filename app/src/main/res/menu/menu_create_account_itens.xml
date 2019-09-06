@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.CreateAccountActivity">
+    <item
+        android:id="@+id/action_create_account_back"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        android:title="@string/voltar"
+        app:showAsAction="ifRoom"/>
+</menu>

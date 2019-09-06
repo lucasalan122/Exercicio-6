@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CreateTodoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_create_todo_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            app:titleTextColor="#ffffff"
+            app:theme="@style/ToolbarColoredBackArrow"
+            app:title="@string/nove_tarefa"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="@string/nove_tarefa"
+            android:textSize="40sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginHorizontal="50dp"
+            android:id="@+id/text_input_layout_create_todo_title"
+            app:errorEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_input_edit_create_todo_title"
+                android:hint="@string/titulo"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:id="@+id/text_input_layout_create_todo_data"
+            app:errorEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/selecione_a_data"
+                android:id="@+id/text_input_edit_create_todo_data"
+                android:inputType="date"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prioridade"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radio_group_create_todo_priority"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_button_create_todo_high"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/alta"/>
+            <RadioButton
+                android:id="@+id/radio_button_create_todo_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:hint="@string/media"/>
+            <RadioButton
+                android:id="@+id/radio_button_create_todo_low"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:hint="@string/baixa"/>
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/salvar"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#fff"
+            android:id="@+id/button_create_todo_save"
+            android:layout_marginHorizontal="100dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
